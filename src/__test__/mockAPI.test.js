@@ -1,4 +1,4 @@
-const json = require('../../server/mockAPI');
+const json = require('../server/mockAPI');
 
 test('check mockAPI content at server side', () => {
 

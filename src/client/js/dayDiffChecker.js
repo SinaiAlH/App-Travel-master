@@ -1,6 +1,6 @@
 // Number of Days Between Two Dates
 
-export function dayDiffCheck (d1, d2) {
+function dayDiffCheck (d1, d2) {
 
     // Get Argument's Time
     let dTime1 = new Date(d1).getTime();
@@ -13,3 +13,5 @@ export function dayDiffCheck (d1, d2) {
     return parseInt((dTime2 - dTime1) / dayInMs);
 
 }
+
+export { dayDiffCheck }
